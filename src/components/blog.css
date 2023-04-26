@@ -3,7 +3,6 @@
   margin: 0;
   box-sizing: border-box;
   font-family: sans-serif;
-  color: rgb(47, 45, 96);
 }
 
 .postsContainer{
@@ -18,11 +17,12 @@
   justify-content: center;
   flex-direction: column;
   margin: 10px;
-  border-radius: 10px;
-  background-color: rgb(207, 217, 239);
+  border-radius: 3px;
+  background-color: rgb(225, 225, 225);
   gap: 10px;
   box-shadow: 10px 10px 20px  black;
   padding: 10px;
+  align-self: flex-start;
 }
 
 .postsBox h1{
